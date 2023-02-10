@@ -16,9 +16,9 @@ namespace NiCloud;
 public class NiCloudService
 {
     const string WidgetKey = "d39ba9916b7251055b22c7f910e2ea796ee65e98b2ddecea8f5dde8d9d1a815d";
-    const string AUTH_ENDPOINT = "https://idmsa.apple.com/appleauth/auth";
-    const string HOME_ENDPOINT = "https://www.icloud.com";
-    const string SETUP_ENDPOINT = "https://setup.icloud.com/setup/ws/1";
+    const string AUTH_ENDPOINT = "https://idmsa.apple.com.cn/appleauth/auth";
+    const string HOME_ENDPOINT = "https://www.icloud.com.cn";
+    const string SETUP_ENDPOINT = "https://setup.icloud.com.cn/setup/ws/1";
 
     private readonly NiCloudSession session;
     private readonly ILogger logger;
